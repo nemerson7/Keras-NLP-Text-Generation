@@ -9,13 +9,6 @@ import numpy as np
 import os
 
 
-# Tensorflow utilities, ensures the GPU is used
-config = tf.compat.v1.ConfigProto()
-config.gpu_options.allow_growth = True
-sess = tf.compat.v1.Session(config=config)
-sess.as_default()
-
-
 # Wraps a keras/tf RNN with user interface
 class ModelLSTM:
     
