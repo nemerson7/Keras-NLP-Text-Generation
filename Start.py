@@ -13,6 +13,7 @@ seed = input("Enter text seed: ")
 model = Model.ModelLSTM(text)
 model.train(epochs = n_epochs)
 
+print("Generating reviews...")
 r1 = model.generate_review(text_seed = seed)
 r2 = model.generate_review(text_seed = seed)
 r3 = model.generate_review(text_seed = seed)
