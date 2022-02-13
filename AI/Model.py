@@ -1,8 +1,3 @@
-# Author: Nick Emerson (nemerso@iu.edu)
-# Last Edit: December 17, 2021
-# This is a program for initializing and training RNN model for CSCI-B 351 final project
-
-
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
