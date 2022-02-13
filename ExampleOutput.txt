@@ -1,0 +1,227 @@
+﻿Enter IMDB Url for the Movie: https://www.imdb.com/title/tt0111161/
+Beginning Review Scrape
+Saving Movie Reviews
+Imported 390 pages of user reviews with 9718 reviews
+Data set includes weigth adjusted critic review count of 3665 and user review size of 3669
+Total data set includes 12833 data points.
+Vectorizing text sequence...
+Text vectorization done. Compiling model...
+Enter the number of epochs you would like to train for: 250
+Epoch 1/250
+9090/9090 [==============================] - 281s 31ms/step - loss: 1.0642 - acc: 0.7029 - lr: 0.0100
+Epoch 2/250
+9090/9090 [==============================] - 285s 31ms/step - loss: 0.9004 - acc: 0.7450 - lr: 0.0100
+Epoch 3/250
+9090/9090 [==============================] - 284s 31ms/step - loss: 0.8773 - acc: 0.7514 - lr: 0.0100
+Epoch 4/250
+9090/9090 [==============================] - 285s 31ms/step - loss: 0.8671 - acc: 0.7551 - lr: 0.0100
+Epoch 5/250
+9090/9090 [==============================] - 283s 31ms/step - loss: 1.0667 - acc: 0.7060 - lr: 0.0100
+Epoch 6/250
+9090/9090 [==============================] - 294s 32ms/step - loss: 0.8296 - acc: 0.7642 - lr: 0.0050
+Epoch 7/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7930 - acc: 0.7735 - lr: 0.0050
+Epoch 8/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7901 - acc: 0.7747 - lr: 0.0050
+Epoch 9/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7965 - acc: 0.7738 - lr: 0.0050
+Epoch 10/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7734 - acc: 0.7791 - lr: 0.0025
+Epoch 11/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7550 - acc: 0.7839 - lr: 0.0025
+Epoch 12/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7577 - acc: 0.7837 - lr: 0.0025
+Epoch 13/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7556 - acc: 0.7844 - lr: 0.0012
+Epoch 14/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7522 - acc: 0.7855 - lr: 6.2500e-04
+Epoch 15/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7503 - acc: 0.7859 - lr: 6.2500e-04
+Epoch 16/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7502 - acc: 0.7862 - lr: 6.2500e-04
+Epoch 17/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7496 - acc: 0.7863 - lr: 6.2500e-04
+Epoch 18/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7500 - acc: 0.7864 - lr: 6.2500e-04
+Epoch 19/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7469 - acc: 0.7870 - lr: 3.1250e-04
+Epoch 20/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7455 - acc: 0.7874 - lr: 3.1250e-04
+Epoch 21/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7450 - acc: 0.7874 - lr: 3.1250e-04
+Epoch 22/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7438 - acc: 0.7877 - lr: 3.1250e-04
+Epoch 23/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7434 - acc: 0.7877 - lr: 3.1250e-04
+Epoch 24/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7430 - acc: 0.7878 - lr: 3.1250e-04
+Epoch 25/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7422 - acc: 0.7881 - lr: 3.1250e-04
+Epoch 26/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7418 - acc: 0.7884 - lr: 3.1250e-04
+Epoch 27/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7422 - acc: 0.7883 - lr: 3.1250e-04
+Epoch 28/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7411 - acc: 0.7887 - lr: 1.5625e-04
+Epoch 29/250
+9090/9090 [==============================] - 293s 32ms/step - loss: 0.7409 - acc: 0.7887 - lr: 1.5625e-04
+Epoch 30/250
+9090/9090 [==============================] - 293s 32ms/step - loss: 0.7406 - acc: 0.7888 - lr: 1.5625e-04
+Epoch 31/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7405 - acc: 0.7889 - lr: 1.5625e-04
+Epoch 32/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7404 - acc: 0.7889 - lr: 1.5625e-04
+Epoch 33/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7402 - acc: 0.7888 - lr: 1.5625e-04
+Epoch 34/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7403 - acc: 0.7889 - lr: 1.5625e-04
+Epoch 35/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7400 - acc: 0.7890 - lr: 7.8125e-05
+Epoch 36/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7401 - acc: 0.7889 - lr: 7.8125e-05
+Epoch 37/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7398 - acc: 0.7891 - lr: 3.9062e-05
+Epoch 38/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7396 - acc: 0.7891 - lr: 3.9062e-05
+Epoch 39/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7393 - acc: 0.7891 - lr: 3.9062e-05
+Epoch 40/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7391 - acc: 0.7892 - lr: 3.9062e-05
+Epoch 41/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7393 - acc: 0.7892 - lr: 3.9062e-05
+Epoch 42/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7390 - acc: 0.7892 - lr: 1.9531e-05
+Epoch 43/250
+9090/9090 [==============================] - 292s 32ms/step - loss: 0.7389 - acc: 0.7892 - lr: 9.7656e-06
+Epoch 44/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7387 - acc: 0.7892 - lr: 9.7656e-06
+Epoch 45/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7391 - acc: 0.7892 - lr: 9.7656e-06
+Epoch 46/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7390 - acc: 0.7893 - lr: 4.8828e-06
+Epoch 47/250
+9090/9090 [==============================] - 291s 32ms/step - loss: 0.7388 - acc: 0.7893 - lr: 2.4414e-06
+Epoch 48/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7387 - acc: 0.7893 - lr: 1.2207e-06
+Epoch 49/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7386 - acc: 0.7893 - lr: 6.1035e-07
+Epoch 50/250
+9090/9090 [==============================] - 290s 32ms/step - loss: 0.7387 - acc: 0.7893 - lr: 6.1035e-07
+Epoch 51/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7384 - acc: 0.7893 - lr: 3.0518e-07
+Epoch 52/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7385 - acc: 0.7893 - lr: 3.0518e-07
+Epoch 53/250
+9090/9090 [==============================] - 289s 32ms/step - loss: 0.7384 - acc: 0.7894 - lr: 1.5259e-07
+Epoch 54/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7383 - acc: 0.7893 - lr: 7.6294e-08
+Epoch 55/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7383 - acc: 0.7894 - lr: 3.8147e-08
+Epoch 56/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7382 - acc: 0.7894 - lr: 1.9073e-08
+Epoch 57/250
+9090/9090 [==============================] - 288s 32ms/step - loss: 0.7381 - acc: 0.7894 - lr: 1.9073e-08
+
+
+****** AI Model ******
+
+# Shawshank Redemption
+
+****** Generated Review, Low Randomness ******
+C:\Users\m103h\Documents\Programming\B351-final-project\AI\Model.py:107: RuntimeWarning: divide by zero encountered in log
+  prediction = np.log(prediction) / randomness
+                                     this was a good movie. The Shawshank Redemption  It's the no bull performances that hold back the flood of banalities. Robbins and Freeman connect with the bruised souls of Andy and Red to create something undeniably powerful and moving.   Shouldering a laconic good guy, neo Gary Cooper role, Robbins never quite makes emotional contact with the audience.   Central to the film's success is a riveting, unfussy performance from Robbins. Freeman has the showier role, allowing him a grace and dignity that come naturally.   Shouldering a laconic good guy, neo Gary Cooper role, Robbins never quite makes emotional contact with the audience.   Shouldering a laconic good guy, neo Gary Cooper role, Robbins never quite makes
+
+
+****** Generated Review, Medium Randomness ******
+                                     this was a good movie. and it and the little as the prison for the movie is a movie in the first time and the characters and the movie all the warden to see it in the movie is the truly a story were the film and friendship really good film in the movie with a story of story and in this movie is a story of perfect and it is a movie when he make a story of friend in the story was the top to the time a man and the new in the movie is a movie in the story is the story about this movie is the prison and with a prison movie. The Shawshank Redemption  Shouldering a laconic good guy, neo Gary Cooper role, Robbins never quite makes emotional contact with the audience.   Whitmore's Brooks is a brilliantly realized character
+
+
+****** Generated Review, High Randomness ******
+                                     this was a good movie. It is an incredible movie a reality of the film is a great superbly, and how maybe the teach the movie is an incredible story of the linechas. It was the audience and the way to comes very having the wrongly find this film spent this movie ever made. changes the movie is a sense to fact in the film on second story of its all the story of my favorite performance of The Shawshank Redemption is a story and the actors true for member and the life in the importance of chear, how an a wonderful film with the resorts movies that well and the characters of the best movie ever made. Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after bei
+
+
+
+
+
+
+####################### added samples
+
+
+# Apocalypse Now
+
+****** Generated Review, Low Randomness ******
+                                     this was a good movie. The one scene in the morning.... The horror...thing in the movie is a masterpiece.  A masterpiece. I was already experience. It is a man. war is a man who has seen to a story of the cinematic seems not see it as someone war movie. It was a masterwooly should be fought becon men as the film. A masterful of the crew of the small boat that was all the story of the story is an excellent could have seen the river, the movie is a must see for the end of the movie is something to a story. The story is about the madness of the movie that war and a struggles of the Vietnam War, this isn't still any colonel who has see the most production who has become a signing of the movie, the book have stop in a 
+
+
+****** Generated Review, Medium Randomness ******
+                                     this was a good movie. It was a film that was and the background, this is the end of the war in a crazed group of war and show and better and all in the movie is sent of painful and study of war, in the more insane and the decisiing than grapsed milling in the depths of the movie. This is a masterpiece in a perfectoon, I do not be lieue this movie. The cinematography is about the war in War progricket, is the films and enjoy the tiched it about the redux version. It was as the river in a decade morbinged in the complete sure of the conflict it with surfing is sight oncatentains a great movie that playing the second with the best war movie ever made The movie is the redux and the interesting centrates and the horro
+
+
+****** Generated Review, High Randomness ******
+                                     this was a good movie. This film is if youbs the war. The book, the military in a heart attacks of enemy. was it's best. The movie is the way that has a struggle that is the boat and nonsangen's on the original of the war. The movie to the soundtrack with the story from the Viet Cong movs effect that the end verses are commune out Col. Kilgore and the horrors of war and the movie to a stord to be restraced to the film and the story of it as because it is a great half of the film absolutely, spepy of Kurtz is about the tiges of some of the crew are all, and the war and respected with this movie thatkestevs from there, though thin doufg. I would haititue as he really be fought beyond him as realize war in a position
+                                     
+             
+             
+             
+             
+             
+             
+             
+             
+# The Godfather
+
+****** Generated Review, Low Randomness ******
+                                     this was a good movie. The was more I so pur pectore I've but is pretty tame today. Only a character getting shoot at a toll booth is pretty over the top. My favorite scene has to be at the end when Keaton realizes what she's married into. The look on her face is perfect.This was a HUGE hit at the box office. It was loved by critics and the public alike. It was rightfully called the Gone With the Wind of the 1970s. A masterpiece and well worth seeing.  The Godfather is an intricately constructed gem that simultaneously kicks ass.   Anees of mimes ly once the great fant refused that rewards the viewers with those very questions for us to ponder and with its richness of story and character. The questions are about h
+
+
+****** Generated Review, Medium Randomness ******
+
+/home/user/Downloads/runthrough3/B351-final-project/AI/Model.py:107: RuntimeWarning: divide by zero encountered in log
+  prediction = np.log(prediction) / randomness
+
+                                     this was a good movie. The Godfather  Os a the family in the United States "Don Vito Corleone" Marlon Brando to celebrate the marriage of his only daughter "Connie Corleone" Talia Shire . As per Sicilian custom, several people have arrived to ask him a personal favor knowing that he cannot refuse during this particular event. It's also during this time that his youngest son "Michael Corleone" Al Pacino arrives having taken time off from his duties in the Marine Corps to attend. Unlike his older brothers "Sonny Corleone" James Caan , "Fredo Corleone" John Cazale and his adopted brother "Tom Hagen" Robert Duvall , Michael wants no part of the family business and Vito is respectful of that decision. Unfortunately, th
+
+
+****** Generated Review, High Randomness ******
+                                     this was a good movie.  Corleone mast paut film whis do it. What follows is a clash between Vito's fading old values and the new ways which may cause Michael to do the thing he was most reluctant in doing and wage a mob war against all the other mafia families which could tear the Corleone family apart. The Godfather "Don" Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. Michael, Vito's youngest son and a decorated WW II Marine is also present at the wedding. Michael seems to be uninterested in being a part of the family business. Vito is a powerful man, and is kind to all those who give him respect but is ruthless against those who do not. But when 
+
+
+
+# Star Wars Episode IV
+
+****** Generated Review, Low Randomness ******
+                                     this was a good movie.  A masterpiece, the story is the film is so many times, and I was aw their with all tell with this film is a simple farm by the film is the series of the movie was about the story is a little ways a special effects and still look why, the effects that is the best movies ever made. I was a simple out a sci fi movie maker is a masterpiece that has been said about this movie is a little ways a true magnacies and the story and inspiring the film is about the original Star Wars is the film is a simple fun and which were a farm boy that has been such a special effects were one of the most interesting story and successfully before. I watch it had seen this film is a sci fi film is the fact that I w
+
+
+****** Generated Review, Medium Randomness ******
+                                     this was a good movie.  A masterpiece, the only backdrop of an exciting and will never get a series and the movie should be an addist of the film is the right and even the end of the first time will always be the same and who wanted youth story, and where it is a sci fi film that has not been seen things a long time ago in a galaxy far, far away. It is a sci fi film in the companions to the start of the special effects are still had infamouted of the greatest movie for the evil empire, and STAR WARS was relising the elements of the movie was actually see it. There are amazin they with all of from the special effects are fore the original trilogy and the plans of course and I was about this movie is not this film i
+
+
+****** Generated Review, High Randomness ******
+                                     this was a good movie. The story is this film.... ......." The film is prequels and is a classic wish to thise was being up to the Star Wars movies ever made the special effects in the empire of the first movie, and the special effects are a big and intrigued that a lot of course all of the most important still have be at the time it was wribed. Now it was the fact that it is a stra, master and helm. I watched it a movie that started the prequels, and second from a Masterpiece and the only if I can every fantastic escapes that hasn't been said. The other two sequels, and such a magicing in the characters of all time age, but there was released the special effects of effects by Jawl his own back to the best movies 
+
+** changed review seed to "utterly fantastic, one of my "
+   utterly fantastic. one of my favorite movies ever made, but it was the most impact to the film is still a little character that it was not a princess of the series. The story and such a sci fi film is a great congent of the first time I watched it and are took a story and hard to get the film with a character that will always was a lot of fraw so much and presented with the star wars movie in the films are all since the special effects are still great film, but the story is a little ways a true bink on the movie making and successful is as the scene where so in my opinion, I really enjoy this movie. I have to say that this movie is not a classic and as the special effects are successful congrorical space opera. Star War'
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

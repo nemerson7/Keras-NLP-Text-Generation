@@ -1,0 +1,5 @@
+tensorflow==2.2.0
+cuDNN==7.6
+CUDA==10.1
+beautifulsoup4==4.10.0
+selenium==3.141.0
