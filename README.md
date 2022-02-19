@@ -1,4 +1,4 @@
-# B351-final-project
+# Keras NLP Text Generation
 
 Run start.py to begin program.
 Simply past the URL to any IMDB movie.
